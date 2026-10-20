@@ -1,0 +1,23 @@
+[
+  {
+    "model": "Prevalence Baseline (Prior)",
+    "roc_auc": 0.5,
+    "pr_auc": 0.2212,
+    "brier_score": 0.1723,
+    "top_decile_capture_pct": 11.45
+  },
+  {
+    "model": "Standardized Logistic Regression",
+    "roc_auc": 0.7064,
+    "pr_auc": 0.4919,
+    "brier_score": 0.1471,
+    "top_decile_capture_pct": 30.82
+  },
+  {
+    "model": "Histogram Gradient Boosting (LightGBM-style)",
+    "roc_auc": 0.7773,
+    "pr_auc": 0.5518,
+    "brier_score": 0.1354,
+    "top_decile_capture_pct": 31.5
+  }
+]
